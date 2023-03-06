@@ -1,0 +1,28 @@
+
+
+s_name = string
+n_name = int
+n4_name = int32
+n8_name = int64
+f4_name = float32
+
+map_name = map[string]string
+
+i_name = inteface{}
+
+arrs_name = array string
+arrn_name = array int
+
+함수는 한개의 함수 당 하나의 기능만 구현
+
+  func insert_delete_db
+    => db table 데이터 추가
+    => db delete 
+
+    insert
+  
+  최소단위로 쪼개서
+  최소단위로 한개의 함수로 구현
+
+  이렇게 쪼갠 함수들을 모아서
+  
